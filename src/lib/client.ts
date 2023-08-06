@@ -11,5 +11,6 @@ export const { getClient } = registerApolloClient(() => {
     link: new HttpLink({
       uri: 'https://countries.trevorblades.com/',
     }),
+    connectToDevTools: true,
   })
 })
